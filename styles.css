@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background: #f5f0e8;
+    color: #3e3a36;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border: 50px solid transparent;
+    border-image: url(painting.jpg) 200 stretch;
+    border-image-repeat: stretch;
+    border-image-slice: 200;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #7b4f39;
+    margin: 0;
+}
+
+.subtext {
+    font-size: 1.2rem;
+    color: #a47153;
+    margin-top: 10px;
+}
+
+/* Menu Sections */
+.menu-section {
+    background: rgba(123, 79, 57, 0.05);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-left: 5px solid #a47153;
+}
+
+.menu-section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #7b4f39;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-section li {
+    font-size: 1.1rem;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Optional Hover Effect */
+.menu-section li:hover {
+    background-color: #f3e4d8;
+    transition: background 0.3s;
+}
