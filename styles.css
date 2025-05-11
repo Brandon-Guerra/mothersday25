@@ -83,3 +83,53 @@ h1 {
 .menu-section li:last-child {
     margin-bottom: 0;
 }
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px 15px;
+        border-width: 30px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .subtext {
+        font-size: 1rem;
+    }
+
+    .menu-section {
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+
+    .menu-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .menu-section li {
+        font-size: 1rem;
+        padding-left: 22px;
+    }
+
+    .menu-section li::before {
+        width: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 15px 10px;
+        border-width: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .menu-section {
+        padding: 15px;
+    }
+}
